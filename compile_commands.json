@@ -1,0 +1,90 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-std=c99",
+      "-g",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread",
+      "-o",
+      "bin/exec",
+      "./src/calc.c"
+    ],
+    "directory": "/home/or/calculator",
+    "file": "/home/or/calculator/src/calc.c",
+    "output": "/home/or/calculator/bin/exec"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-std=c99",
+      "-g",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread",
+      "-o",
+      "bin/exec",
+      "./src/main.c"
+    ],
+    "directory": "/home/or/calculator",
+    "file": "/home/or/calculator/src/main.c",
+    "output": "/home/or/calculator/bin/exec"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-std=c99",
+      "-g",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread",
+      "-o",
+      "bin/exec",
+      "./src/stringUtils.c"
+    ],
+    "directory": "/home/or/calculator",
+    "file": "/home/or/calculator/src/stringUtils.c",
+    "output": "/home/or/calculator/bin/exec"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-std=c99",
+      "-g",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread",
+      "-o",
+      "bin/exec",
+      "./src/symbol.c"
+    ],
+    "directory": "/home/or/calculator",
+    "file": "/home/or/calculator/src/symbol.c",
+    "output": "/home/or/calculator/bin/exec"
+  }
+]
