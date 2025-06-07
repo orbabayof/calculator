@@ -1,6 +1,7 @@
 #pragma once
 
-#include "glib.h"
+#include <glib-2.0/glib.h>
+#include <stdbool.h>
 #define Number double 
 
 typedef enum 
@@ -37,7 +38,23 @@ typedef struct
   ArgType type;
 }Arg;
 
-GList* serializeString(const char* str);
+GList* deserializeString(const char* str);
 
+typedef enum 
+{
+  status_finished,
+  status_fail,
+  status_success,
+
+}reduceStatus;
+
+reduceStatus argListReduce(GList* list);
+int prioretyOfSymbol(Symbol sym);
+
+
+bool isBinaryExpr(GList* start);
+bool isUnaryExpr(GList* start);
+
+int prioretyOfExpr(GList* start);
 
 
